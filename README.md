@@ -1,106 +1,42 @@
-# 🧪 RepoVox Sandbox
 
-Welcome to the **RepoVox Sandbox** – a testing ground for visualizing and analyzing your code updates using RepoVox. This sandbox is a forkable, safe environment to experiment with RepoVox.
+### Fork the Sandbox Repo
 
-## 📦 What's Inside?
+For this repo into your account
 
-This sandbox includes:
-
-- ✅ React + Vite
-- ✅ React Router for client-side routing
-- ✅ TailwindCSS (optional)
-- ✅ Example routes and components
-- ✅ RepoVox integration hooks (coming soon)
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
+### Clone & Setup Locally
 
 ```bash
-git clone https://github.com/Skndan/repovox-sandbox.git
+git clone https://github.com/YOUR_USERNAME/repovox-sandbox.git
 cd repovox-sandbox
-```
+``` 
 
-### 2. Install dependencies
-
-```bash
-npm install
-# or
-yarn install
-```
-
-### 3. Run the dev server
+### Create a Feature Branch
 
 ```bash
-npm run dev
-# or
-yarn dev
+git checkout -b feature/my-update
 ```
 
----
+### Make Some Code Changes
 
-## 🧠 Experience RepoVox in Action
-
-Want to see **RepoVox** in action? Follow these steps to simulate a real code update and watch how RepoVox handles it:
-
----
-
-### 1. 🚀 Clone the Sandbox Repo
-
-```bash
-git clone https://github.com/Skndan/repovox-sandbox.git
-cd repovox-sandbox
-```
-
----
-
-### 2. 🌿 Create a New Branch
-
-```bash
-git checkout -b feature/my-test-branch
-```
-
----
-
-### 3. 💻 Make Some Code Changes
-
-Edit any file inside the repo (e.g., `src/App.tsx` or `src/index.tsx`)  
-Then stage and commit the changes:
+- Edit any file inside the repo (e.g., app/root.tsx or app/welcome/welcome.tsx)
+- Then stage and commit the changes
 
 ```bash
 git add .
 git commit -m "Test change for RepoVox"
+git push origin feature/my-update
 ```
 
----
+### Raise a Pull Request
 
-### 4. ⬆️ Push to Remote
+- Visit your forked repo on GitHub  
+- Click **Pull Requests → New Pull Request**  
+- Select your branch and open a PR targeting the original sandbox repo: `Skndan/repovox-sandbox`
 
-```bash
-git push origin feature/my-test-branch
-```
+### Watch RepoVox in Action
 
----
+Once your PR is created:
 
-### 5. 🧠 Let RepoVox Do the Rest
-
-Once you push your changes:
-
-- RepoVox detects the commit via webhook
-- AI generates a summary of the update
-- 🚀 Summary gets posted to [Twitter](https://x.com/RepovoxSandbox) 👈 Check now
-
----
- 
-
-## 👀 Want to Try RepoVox with your Repo?
-
-👉 [Visit RepoVox.com](https://repovox.com) to connect your repo and start sharing smart updates on Slack, Twitter, and more.
-
----
-
-## 📄 License
-
-MIT – use this however you want. Contributions welcome!
+- RepoVox analyzes the changes
+- AI generates a clean summary
+- The update is shared to [@RepovoxSandbox](https://x.com/RepovoxSandbox)
