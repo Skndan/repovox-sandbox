@@ -18,6 +18,9 @@ export function Test() {
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
              Updateing new 
             </p>
+            <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
+             Updateing new content
+            </p>
           </nav>
         </div>
       </div>
